@@ -88,7 +88,7 @@ public class RankChanger implements Listener, Runnable {
 	    return;
 	}
 
-	String world = player.getWorld().getName();
+	String world = null;
 
 	String[] playerGroups = vault.getGroups(player, world);
 	if (playerGroups.length == 0) {
